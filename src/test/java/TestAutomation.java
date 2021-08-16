@@ -16,8 +16,8 @@ public class TestAutomation {
     public String url;
     public Elements elm;
     public Actions actions;
-    public static String email = "ulutasalkan@hotmail.com";
-    public static String password = "69150000";
+    public static String email = admin;
+    public static String password = password;
 
 
     @Before
