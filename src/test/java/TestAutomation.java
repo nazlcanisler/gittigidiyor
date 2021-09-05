@@ -5,12 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.concurrent.TimeUnit;
 
-
-
-import java.util.concurrent.TimeUnit;
 public class TestAutomation {
     public WebDriver driver;
     public String url;
@@ -18,7 +14,6 @@ public class TestAutomation {
     public Actions actions;
     public static String email = admin;
     public static String password = password;
-
 
     @Before
     public void setupTestDriver() {
