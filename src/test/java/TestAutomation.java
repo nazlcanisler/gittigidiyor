@@ -74,8 +74,9 @@ public class TestAutomation {
             String basketPrice=elm.basketPriceOfProduct().getText();
             //Sepetteki değer ile ürünün liste değeri kıyaslanır
             if(unitPrice.equals(basketPrice)){
-
+                System.out.println("Aynı fiyat");
             }
+            else System.out.println("Sepetteki tutar ile aynı değildir");
         }
     }
 
